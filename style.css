@@ -1,0 +1,67 @@
+*,*::before,*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  background-color: #2B494A;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.heading {
+  font-size: 100px;
+  text-transform: uppercase;
+  color: #1C2C34;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.boxes {
+  height: 600px;
+  width: 1500px;
+  background-color: red;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #2B494A;
+}
+
+.inner-box {
+  height: 300px;
+  width: 300px;
+  background: black;
+  position: relative;
+  background-color: #1C2C34;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.alpha {
+  text-overflow: ellipsis;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  transform: rotate(-90deg);
+  
+  transform-origin: 16px 22px;
+  display: inline-block;
+}
+.alpha h1{
+  color: #528A89;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+}
+
+.number h1{
+  font-size: 150px;
+  color: #E90C7B;
+}
